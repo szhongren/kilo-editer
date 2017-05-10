@@ -1,5 +1,5 @@
 # small text editor written in C with termios.h
-kilo is the name chosen because it is about a thousand lines of code in total
+about a thousand lines of code in total
 
 based on kilo editor tutorial [here](http://viewsourcecode.org/snaptoken/kilo/index.html)
 
@@ -10,3 +10,5 @@ to build, run `make kilo`, then `./kilo <filename?>`
 # Ctrl-C and Ctrl-Z do not work.
 
 #### Ctrl-Q to quit
+#### Ctrl-S to save
+#### Ctrl-F to perform incremental search
