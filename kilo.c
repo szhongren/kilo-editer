@@ -479,7 +479,7 @@ void editorFindCallback(char *query, int key) {
         // handle top and bottom of file
         if (current == -1)
             current = E.numrows - 1;
-        else if (currrent == E.numrows)
+        else if (current == E.numrows)
             current = 0;
 
         erow *row = &E.row[current];
